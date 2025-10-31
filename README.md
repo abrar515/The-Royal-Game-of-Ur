@@ -37,8 +37,8 @@ The-Royal-Game-of-Ur/
 ## How to Run the Game
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/royal-game-of-ur.git
-cd royal-game-of-ur
+git clone https://github.com/abrar515/The-Royal-Game-of-Ur.git
+cd The-Royal-Game-of-Ur
 
 # 2. Install dependencies
 pip install -r requirements.txt
