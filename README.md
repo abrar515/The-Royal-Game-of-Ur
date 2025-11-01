@@ -51,8 +51,20 @@ python Ur_Game.py
 ---
 
 ## Gameplay
+When the game is run, the player gets an intro/menu screen as shown below:
+
+![Intro](https://github.com/abrar515/The-Royal-Game-of-Ur/blob/main/Screenshots/Menu.png?raw=true)
+
+A screenshot of gameplay is shown below:
+
+![Playing](https://github.com/abrar515/The-Royal-Game-of-Ur/blob/main/Screenshots/playing.png?raw=true)
+
+### Dice Roll: 
+
 Each player rolls **four binary dice**.
+
 ▲ counts as 1 and △ counts as 0
+
 The number of “▲” equals how many spaces or cells a piece can move.
 
 Example:
@@ -65,24 +77,15 @@ Example:
 - Middle row → shared battle path
 - Rosettes → safe zones with extra turns
 - Finish all pieces to win
-```
-╔═══════╦═══════╦═══════╦═══════╗               ╔═══════╦═══════╗
-║ +---+ ║       ║       ║       ║               ║ +---+ ║       ║
-║ │   │ ║       ║       ║       ║               ║ │   │ ║       ║
-║ +---+ ║       ║       ║       ║               ║ +---+ ║       ║
-╠═══════╬═══════╬═══════╬═══════╬═══════╦═══════╬═══════╣═══════╣
-║       ║       ║       ║ +---+ ║       ║       ║       ║       ║
-║       ║       ║       ║ │   │ ║       ║       ║       ║       ║
-║       ║       ║       ║ +---+ ║       ║       ║       ║       ║
-╠═══════╬═══════╬═══════╬═══════╬═══════╩═══════╬═══════╣═══════╣
-║ +---+ ║       ║       ║       ║               ║ +---+ ║       ║
-║ │   │ ║       ║       ║       ║               ║ │   │ ║       ║
-║ +---+ ║       ║       ║       ║               ║ +---+ ║       ║
-╚═══════╩═══════╩═══════╩═══════╝               ╚═══════╩═══════╝
-```
+
+![Board Layout](https://github.com/abrar515/The-Royal-Game-of-Ur/blob/main/Screenshots/Board.png?raw=true)
+
 ---
 
 ## Rules
+
+![Rules](https://github.com/abrar515/The-Royal-Game-of-Ur/blob/main/Screenshots/Rules.png?raw=true)
+
 1. Each player starts with 7 pieces.
 2. Roll the dice → move any valid piece that many steps.
 3. Landing on an opponent’s piece captures it.
@@ -94,21 +97,7 @@ Example:
 
 ---
 ## Path
-```
-╔═══════╦═══════╦═══════╦═══════╗               ╔═══════╦═══════╗
-║ +---+ ║       ║       ║       ║               ║ +---+ ║       ║
-║ │   │ ║       ║       ║       ║               ║ │   │ ║       ║
-║ +---+ ║       ║       ║       ║               ║ +---+ ║       ║
-╠═══════╬═══════╬═══════╬═══════╬═══════╦═══════╬═══════╣═══════╣
-║       ║       ║       ║ +---+ ║       ║       ║       ║       ║
-║   ┌───┼───────┼───────┼─┼───┼─┼───────┼───────┼───────┼────┐  ║
-║   │   ║       ║       ║ +---+ ║       ║       ║       ║    │  ║
-╠═══┼═══╬═══════╬═══════╬═══════╣═══════╩═══════╬═══════╬════┼══╣
-║ +-│-+ ║       ║       ║       ║               ║ +---+ ║    │  ║
-║ │ └─┼─┼───────┼───────┼───────┼◄─START   END ◄┼─┼───┼─┼────┘  ║
-║ +---+ ║       ║       ║       ║               ║ +---+ ║       ║
-╚═══════╩═══════╩═══════╩═══════╝               ╚═══════╩═══════╝
-```
+![Path](https://github.com/abrar515/The-Royal-Game-of-Ur/blob/main/Screenshots/Path.png?raw=true)
 
 ---
 
